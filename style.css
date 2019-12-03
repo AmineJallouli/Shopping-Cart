@@ -1,0 +1,97 @@
+main #cart{
+    background-color: grey;
+}
+#cart .prod #bag{
+    display: flex;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#cart .prod #bag span{
+    margin-left: 20px;
+}
+
+#cart .prod .unip{
+    padding-top:140px;
+    font-weight: bolder;
+}
+
+main #cart #item1{
+    display: flex;
+    justify-content: space-around;
+}
+
+main #cart #item1 .sub{
+    display: flex;
+}
+
+main #cart #item1 img{
+    width: 300px;
+    height: 300px;
+}
+
+main #cart #item2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+main #cart #item2 .sub{
+    display: flex;
+}
+
+main #cart #item2 img{
+    width: 250px;
+    height: 270px;
+}
+
+main #cart #item3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+main #cart #item3 .sub{
+    display: flex;
+}
+
+main #cart #item3 img{
+    width: 250px;
+    height: 250px;
+    margin-right: 40px;
+}
+
+#cart .prod{
+    background-color:   white;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 50px;
+}
+
+#cart .prod .icons{
+    padding-top:140px;
+}
+
+#cart .prod .sub p{
+    padding-top: 140px;
+    font-weight: bolder;
+}
+
+#cart .prod .sub img{
+    padding-right:20px;
+}
+
+#cart .prod .add{
+    padding-top:140px;
+}
+
+#cart .prod .add i:hover{
+    cursor: pointer;
+    color:green;
+}
